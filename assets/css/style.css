@@ -1,0 +1,73 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1555158337-86985a5f32a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    margin-left: 10px;
+    
+}
+#winningNumber{
+    background-color: rgb(66, 4, 66);
+    height:75px;
+    overflow: auto;
+    
+}
+#currentTotal{
+    height:75px;
+    overflow: auto;
+    background-color: rgb(197, 20, 197);
+    color: black;
+}
+
+#container2{
+    
+    margin-bottom: 10px;
+    width: 50%;
+
+}
+.contained{
+    margin-left: 15px;
+}
+
+
+#yourTotal{
+    background-color: rgb(92, 49, 92);
+    width: 50%;
+    
+    /* height: 50px; */ 
+    overflow: auto;
+    margin-bottom: 10px;
+    color: black;
+}
+#nameGame{
+    background-color: black;
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+ 
+}
+#directions{
+    background-color: blueviolet;
+    height: 350px;
+    float: left;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#winLoss{
+    background-color: rgb(66, 4, 66);
+    height: 80px;
+    overflow: auto;
+    color: white;
+    margin-bottom: 10px;   
+
+}
+.button{ 
+    display: block;
+    height: 130px;  
+    width: 100px;
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+
+} 
+/* #crystals {
+    width: 300px;
+    height: 300px;
+  } */
