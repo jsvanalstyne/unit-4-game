@@ -12,11 +12,11 @@ startOver()
 // Create reset function that empties the score, goal and current sum
 function startOver(){
     counter = 0; 
-        $("#currentTotal").html(counter);
+        $("#currentTotal").text(counter);
         // Need to randomly generate numbers for goal (math.floor) in an array between 19 - 120.
     winningRandom= Math.floor(Math.random()*102) + 19;
     // Display goal number in a div 
-        $("#winningNumber").html(winningRandom);
+        $("#winningNumber").text(winningRandom);
 // Create buttons for each crystal and assign it the image between 1 - 12
 // Need to randomly generate numbers for crystals (4 different crystals)(math.floor)
     $("img").each(function(){
@@ -34,7 +34,7 @@ $("img").on("click", function(){
     counter  += parseInt($(this).attr("value"))
         console.log("New score: "+ counter);
 // User continues to click on crystal values until it equals or exceeds, winningNumber value
-    $("#currentTotal").html(counter);
+    $("#currentTotal").text(counter);
 // Have current score display in a different div
         if (counter === winningRandom){
      // If user equals the goal number and the sum of the array --> winner, score goes up and game resets
