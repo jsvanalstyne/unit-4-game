@@ -7,14 +7,16 @@ body {
     background-color: rgb(66, 4, 66);
     height:75px;
     overflow: auto;
-    color: black;
+    color: white;
+    font-size: 50px;
     
 }
 #currentTotal{
     height:75px;
     overflow: auto;
     background-color: rgb(197, 20, 197);
-    color: black;
+    color: white;
+    font-size: 50px;
 }
 
 #container2{
