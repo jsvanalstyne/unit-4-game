@@ -1,22 +1,33 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1555158337-86985a5f32a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-    margin-left: 10px;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/005/986/199/large/holy-chick-2.jpg?1495191810);
+    margin-left: 550px;
+    /* height: 60%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     
 }
 #winningNumber{
-    background-color: rgb(66, 4, 66);
+    background-color: rgb(51, 144, 187);
     height:75px;
     overflow: auto;
     color: white;
     font-size: 50px;
+    margin-right: 40px;
+    text-align: center;
+    margin-left: 50px;
     
 }
 #currentTotal{
     height:75px;
     overflow: auto;
-    background-color: rgb(197, 20, 197);
+    background-color: rgb(88, 174, 224);
     color: white;
     font-size: 50px;
+    margin-left: 100px;
+    text-align: center;
+
 }
 
 #container2{
@@ -31,43 +42,54 @@ body {
 
 
 #yourTotal{
-    background-color: rgb(92, 49, 92);
+    background-color: rgb(51, 144, 187);
     width: 50%;
     
     /* height: 50px; */ 
     overflow: auto;
     margin-bottom: 10px;
-    color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 70px;
 }
 #nameGame{
-    background-color: black;
+    background-color:rgb(51, 144, 187);
+    height:75px;
+    margin-top: 10px;
     margin-bottom: 10px;
     color: white;
-    padding: 10px;
+    padding-top: 10px;
+    /* padding: 10px; */
     text-align: center;
+    font-size: 60px;
+    margin-left: 80px;
  
 }
 #directions{
-    background-color: blueviolet;
+    background-color:rgb(88, 174, 224);
     height: 350px;
     float: left;
     margin-bottom: 10px;
     padding: 5px;
     overflow: auto;
+    border: 10px dotted white;
 }
 #winLoss{
-    background-color: rgb(66, 4, 66);
-    height: 80px;
+    background-color:rgb(88, 174, 224);
+    height: 75px;
     overflow: auto;
     color: white;
     font-size: 20px;
-    margin-bottom: 10px;  
+    margin-bottom: 10px; 
+    margin-left: 50px;
 
 }
 .button{ 
     display: block;
     height: 130px;  
     width: 100px;
+    background-color:rgb(158, 222, 247)
     /* margin-right: 10px; */
     /* margin-left: 10px; */
 
