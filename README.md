@@ -1,1 +1,6 @@
-# unit-4-game
+# Crystal Collector
+
+## Getting Started
+
+### Built With
+
